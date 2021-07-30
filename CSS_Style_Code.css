@@ -1,0 +1,112 @@
+h1{
+	color: floralwhite;
+	font-size: 80px;
+	text-align: left;
+	transform: translate(10%, 70%);
+}
+
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+.plants{
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 40px;
+	border: 5px solid lightgray;
+}
+
+.plants:hover{
+	border-color: darkslategray;
+	opacity: 1;
+}
+
+#logo{
+	width: 20%;
+	height: 80px;
+}
+
+body{
+	font-family: 'Hi Melody', cursive;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+	font-size: 120%;
+	line-height: 30px;
+}
+
+p{
+	font-size: 150%;
+	color: black;
+}
+
+h2{
+	font-size: 200%;
+	padding: 25px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#box{
+	background-color: yellow;
+	border: 5px solid lightgray;
+	margin: 100px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#top{
+	display: flex;
+}
+
+#logo, h1, #top>h2{
+	position: absolute;
+}
+
+#top>h2{
+	color: floralwhite;
+	background-color: lightgray;
+	padding: 10px; 
+	border-radius: 30%;
+	transform: translate(20%, 895%);x	
+}
+
+#logo{
+	transform: translate(5%, 10%);
+	height: 15%;
+	width: 10%;
+	background-color: darkslategray;
+	border-radius: 50px;
+
+}
+
+#cards{
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 25px;
+
+}
+
+#background{
+	background-color: #fff4d9;
+	padding: 2%;
+}
+
+#list{
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 2%;
+	text-align: left;
+}
+
